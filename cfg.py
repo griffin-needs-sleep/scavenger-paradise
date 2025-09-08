@@ -1,8 +1,8 @@
 import pygame
 
 
-win_size = (500,500)
-win = pygame.display.set_mode(win_size)
+win_size = (800,600)
+win = pygame.display.set_mode(win_size, pygame.DOUBLEBUF)
 
 class events_(type):    
     def __iter__(cls):
