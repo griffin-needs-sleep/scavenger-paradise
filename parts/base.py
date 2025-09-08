@@ -1,5 +1,5 @@
 from vectors import vec
-import pygame, cfg
+import pygame, cfg, pixel_art
 import parts.part as part
 
 "handles movment"
@@ -10,7 +10,7 @@ class base(part.part):
     pass
 
 class rocket(base):
-
+    image = pixel_art.rocket
     def update(player):
         for key in cfg.events.keys:
             match key:

@@ -1,6 +1,6 @@
 import pygame
 
-
+img_scaling = 5
 win_size = (800,600)
 win = pygame.display.set_mode(win_size, pygame.DOUBLEBUF)
 
