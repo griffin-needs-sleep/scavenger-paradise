@@ -1,0 +1,6 @@
+# we don't want to be commiting pycache typically
+*__pycache__
+
+# this is environment variables, in case there's ever something in future that uses them
+*.env
+!.env.example
