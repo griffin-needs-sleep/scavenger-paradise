@@ -22,10 +22,13 @@ class rocket(base):
                     player.vel.x-=player.speed
                 case pygame.K_d:
                     player.vel.x+=player.speed
-        player.vel *= 0.990
+        player.vel *= 0.970
+
+        #n_hb = pygame.rect.Rect(player.pos.x, player.pos.y, )
+        #u_hb
+
+        #for ob in cfg.obj:
+
         player.pos += player.vel
-        
-
-                
-
+        player.rot = -player.vel.x*1.5
 

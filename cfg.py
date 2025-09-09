@@ -25,3 +25,6 @@ class events(metaclass=events_):
 
             if event.type == pygame.QUIT:
                 pygame.quit()
+
+
+obs = []
